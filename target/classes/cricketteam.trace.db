@@ -1,0 +1,6 @@
+2023-12-17 13:07:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PLAYER" not found; SQL statement:
+SELECT * FROM player [42102-214]
+2023-12-19 07:34:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from team playerName [*]= ? and jerseyNumber = ? and role = ?"; SQL statement:
+select * from team playerName = ? and jerseyNumber = ? and role = ? [42000-214]
